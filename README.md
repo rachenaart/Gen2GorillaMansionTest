@@ -1,8 +1,6 @@
-# Welcome to HashLips 👄
+# Welcome to Gen2 Gorilla Mansion Testing Dapp
 
-![](https://github.com/HashLips/hashlips_nft_minting_dapp/blob/main/logo.png)
-
-All the code in these repos was created and explained by HashLips on the main YouTube channel.
+All the code in this repo was created based on HashLips Minting Dapp.
 
 To find out more please visit:
 
@@ -18,8 +16,6 @@ To find out more please visit:
 
 # HashLips NFT minting dapp 🔥
 
-![](https://github.com/HashLips/hashlips_nft_minting_dapp/blob/main/banner.png)
-
 This repo provides a nice and easy way for linking an existing NFT smart contract to this minting dapp. There are two ways of using this repo, you can go the simple route or the more complex one.
 
 The simple route is so simple, all you need to do is download the build folder on the release page and change the configuration to fit your needs. (Follow the video for a walk through).
@@ -31,7 +27,7 @@ The more complex route allows you to add additional functionality if you are com
 If you are cloning the project then run this first, otherwise you can download the source code on the release page and skip this step.
 
 ```sh
-git clone https://github.com/HashLips/hashlips_nft_minting_dapp.git
+git clone https://github.com/rachenaart/Gen2GorillaManstionTest.git
 ```
 
 Make sure you have node.js installed so you can use npm, then run:
@@ -52,22 +48,22 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
 
 ```json
 {
-  "CONTRACT_ADDRESS": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
-  "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+  "CONTRACT_ADDRESS": "0x79b0d4eE7B1B9917eBEcA29220305FfF43067Ae3",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/tx/0x07372cdcc89e49998488ec244db83e9b08febf8537d94c7b91912f6ee3ce7402",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Rinkeby Testnet",
+    "SYMBOL": "ETH",
+    "ID": 4
   },
-  "NFT_NAME": "Nerdy Coder Clones",
-  "SYMBOL": "NCC",
-  "MAX_SUPPLY": 1000,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.075,
+  "NFT_NAME": "Gen2-Gorilla-Manstion",
+  "SYMBOL": "G2GM",
+  "MAX_SUPPLY": 11,
+  "WEI_COST": 10000000000000000,
+  "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "OpenSea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
-  "SHOW_BACKGROUND": true
+  "MARKETPLACE": "Opeansea Testnet",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/gen2-gorilla-mansion-v2",
+  "SHOW_BACKGROUND": false
 }
 ```
 

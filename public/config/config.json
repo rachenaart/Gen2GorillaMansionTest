@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x79b0d4eE7B1B9917eBEcA29220305FfF43067Ae3",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/tx/0x07372cdcc89e49998488ec244db83e9b08febf8537d94c7b91912f6ee3ce7402",
+  "NETWORK": {
+    "NAME": "Rinkeby Testnet",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "Gen2-Gorilla-Manstion",
+  "SYMBOL": "G2GM",
+  "MAX_SUPPLY": 11,
+  "WEI_COST": 10000000000000000,
+  "DISPLAY_COST": 0.01,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea Testnet",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/gen2-gorilla-mansion-v2",
+  "SHOW_BACKGROUND": false
+}
